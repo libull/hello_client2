@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hello_client" />
+        <module name="hello_dal" />
+        <module name="hello_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello_client" target="1.5" />
+      <module name="hello_dal" target="1.5" />
+      <module name="hello_service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
